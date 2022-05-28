@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Passo 1: Verifique se o seu imóvel é compatível </h2>
+
+    Tipo: <select name="select" id="tipo">
+        <option  value="Casa">Casa</option>
+        <option  value="Apartamento">Apartamento</option>
+        <option  value="Chácara">Chácara</option>
+      </select></br></br>
+
+    <div>Área: <input id="area" label="Area"></div></br>
+
+
+    <form>
+        Qual é o seu nome? <input type="text" id="nome">
+        <br>
+        <br>
+
+        <button id="btn-enviar" onclick="mostrar(event)">ENVIAR</button>
+    </form>
+    
+    <p id="1"></p>
+
+<h2>Passo 2: Qual o tamanho da sua mudança?</h2>
+    Tipo: <select name="select" id="pacote">
+        <option  value="Caixas">Caixas</option>
+        <option  value="Container">Container</option>
+        <option  value="Baú">Baú</option>
+      </select></br>
+<h4>Considere somar todas os volumes juntos</h4>
+    <div>Volume:</br>
+        Altura <input id="altura" label="pacote"></div></br>
+        Largura <input id="largura" label="pacote"></div></br>
+        Comprimento <input id="comprimento" label="pacote"></div></br>
+        
+        <p id="2"></p>
+        <button id="btn-enviar_2" onclick="calculeArea(event)">ENVIAR</button>
+    
+    
+
+
+
+
+    <script src="aval_imovel.js"></script>
+</body>
+</html>
