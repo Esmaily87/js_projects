@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+      
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<h2>Lance a Receita ou a Despesa da Família</h2>
+<div><input type="text" id="receita"></div> <br>
+
+<button type="submit" onclick="lancaReceita(event)">Lançar Receita</button>
+
+<br><br><div><input type="text" id="despesa"></div><br>
+
+<button type="submit" onclick="lancaDespesa(event)">Lançar Despesa</button>
+<br>
+<h3>Receitas e Despesas</h3>
+<p id="receitaatual"></p>
+
+<p id="receitalancada"></p>
+
+<h3>Despesas</h3>
+
+<p id="despesaatual"></p>
+<p id="despesalancada"></p>
+<h3>Saldo</h3>
+<p id="saldo"></p>
+
+<!--Div that will hold the pie chart-->
+<div id="chart_div"></div>
+
+
+
+    <script src="finances.js"></script>
+
+</body>
+</html>
