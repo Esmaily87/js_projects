@@ -56,6 +56,42 @@ function calculeArea(pacotecabe){
 
 }
 
+function mostrarCurriculo(){
+
+  
+    let element = document.getElementById('cvlattes');
+    element.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/azccmhEBp7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+
+ 
+
+}
+
+function esconderCurriculo(){
+
+  
+    let element = document.getElementById('cvlattes');
+    element.innerHTML = ''
+
+ 
+
+}
+
+function lancaReceita(){
+    let receita = document.getElementById('cvlattes');
+        
+
+        
+    
+    document.getElementById('receitaatual').innerHTML = " Total de Receitas = "+somar 
+   
+   
+    console.log(somar)
+    
+   
+
+}
+
+
 /*try catch
 
 try{

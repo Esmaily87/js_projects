@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('../partials/head'); %>
+<body class="container">
+    <%- include('../partials/header'); %>
+    
+    <main>
+        <div class="bg_proj">
+            <h1>Projetos Realizados</h1>
+            <p>Aprecie os projetos que já elaborei e os que estou trabalhando.</p>
+            <p><%= subtitulo %></p> 
+        </div>
+        <div>
+            <ul>
+                <% qualidades.forEach(function(q){ %>
+                <li>
+                    <strong><%= q.title %></strong><%= q.message%> <%= q.inc %>
+                </li>
+
+            <% }) %>
+               
+                
+
+            </ul>
+        </div>
+    </main>
+    <%- include('../partials/footer'); %>  
+     
+</body>
+</html>
